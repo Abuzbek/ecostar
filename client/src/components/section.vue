@@ -2,10 +2,10 @@
   <section class="skill">
     <v-container>
       <v-row>
-        <v-col cols="12" lg="6">
+        <v-col cols="12" md="6">
           <img src="../assets/about_left.png" alt="" />
         </v-col>
-        <v-col cols="12" lg="6">
+        <v-col cols="12" md="6">
           <h1>Xohlangan turdagi mahsulotlarni qadoqlash xizmati</h1>
           <p>
             Darhol biz bilan bog’laning va o'z mahsulotingiz uchun chiroyli,
@@ -52,5 +52,10 @@ p {
   padding: 17px 42px !important;
   height: 60px !important;
   margin-bottom: 120px;
+}
+@media (max-width:699px) {
+  .skill{
+    text-align: center;
+  }
 }
 </style>

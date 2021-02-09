@@ -2,16 +2,16 @@
   <section class="about">
     <v-container>
       <h1 style="margin-bottom:80px;" class="text-center">EcoStar bu</h1>
-      <v-row>
-        <v-col cols="12" lg="4" class="d-flex justify-center align-center flex-column">
+      <v-row justify="center">
+        <v-col cols="12" lg="4" md="6" class="d-flex justify-center align-center flex-column">
           <img class="mb-8" src="../assets/icon1.svg" alt="">
           <h3>Hamyonbop narxlar</h3>
         </v-col>
-        <v-col cols="12" lg="4" class="d-flex justify-center align-center flex-column">
+        <v-col cols="12" lg="4" md="6" class="d-flex justify-center align-center flex-column">
           <img class="mb-8" src="../assets/icon2.svg" alt="">
           <h3>Yuqori sifat</h3>
         </v-col>
-        <v-col cols="12" lg="4" class="d-flex justify-center align-center flex-column">
+        <v-col cols="12" lg="4" md="6" class="d-flex justify-center align-center flex-column">
           <img class="mb-8" src="../assets/icon3.svg" alt="">
           <h3>Unikal dizayn</h3>
         </v-col>

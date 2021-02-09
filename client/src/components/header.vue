@@ -16,7 +16,7 @@
           <div class="header_bottom d-flex justify-space-between align-center">
             <div class="left d-flex align-center">
               <img src="../assets/phone.png" alt="" />
-              <a href="tel:+998990123456">+998990123456</a>
+              <a href="tel:+998939712525">+998939712525</a>
             </div>
             <div class="right">
               <a href="#!">
@@ -32,7 +32,10 @@
           </div>
         </div>
       </v-col>
-      <v-col cols="12" lg="6">
+      <v-col cols="12" lg="6" class="d-block d-none-lg">
+        <sliderlg/>
+      </v-col>
+      <v-col cols="12" lg="6" class="d-block-lg d-none">
         <slider/>
       </v-col>
     </v-row>
@@ -40,9 +43,11 @@
 </template>
 <script>
 import slider from './verticalSlider'
+import sliderlg from './sliderlg'
+
 export default {
   components:{
-    slider
+    slider,sliderlg
   }
 };
 </script>
@@ -92,6 +97,39 @@ export default {
       a{
         margin: 0px 20px;
       }
+    }
+  }
+}
+.d-block{
+  display: block;
+}
+.d-none{
+  display: none;
+}
+@media (max-width:1263px) {
+  .d-none-lg{
+    display: none;
+  }
+  .d-block-lg{
+    display: block;
+  }
+}
+@media (max-width:599px) {
+  .header_title{
+    text-align: center;
+  }
+}
+@media (max-width:499px) {
+  .header_title{
+    h1{
+      font-size: 25px;
+    }
+  }
+  .header_bottom{
+    flex-direction: column;
+    justify-content: center !important;
+    .right{
+      margin-top: 25px;
     }
   }
 }
