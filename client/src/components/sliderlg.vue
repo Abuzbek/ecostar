@@ -5,24 +5,24 @@
         <img src="../assets/2.jpg" alt="" />
       </swiper-slide>
       <swiper-slide>
-        <img src="../assets/2.jpg" alt="" />
+        <img src="../assets/1.png" alt="" />
       </swiper-slide>
       <swiper-slide>
-        <img src="../assets/2.jpg" alt="" />
+        <img src="../assets/2.png" alt="" />
       </swiper-slide>
       <swiper-slide>
-        <img src="../assets/2.jpg" alt="" />
+        <img src="../assets/3.png" alt="" />
       </swiper-slide>
       <div
-        class="swiper-pagination swiper-pagination-bullets"
+        class="swiper-pagination swiper-pagination-bullets bullets"
         slot="pagination"
       ></div>
-      <div class="swiper-button-prev" slot="button-prev">
-        <img src="../assets/arrowt.svg" alt="" />
+      <div class="swiper-button-prev prev" slot="button-prev">
+        <img src="../assets/arrowt.svg" alt="">
       </div>
-      <div class="swiper-button-next" slot="button-next">
-        <img src="../assets/arrowb.svg" alt="" />
-      </div>
+    <div class="swiper-button-next next" slot="button-next">
+        <img src="../assets/arrowb.svg" alt="">
+    </div>
     </swiper>
   </div>
 </template>
@@ -107,21 +107,21 @@ export default {
 .swiper-button-prev:after {
   display: none;
 }
-.swiper-button-next {
+.next {
   left: auto !important;
   right: 20px !important;
   bottom: 0px !important;
   top: auto !important;
   transform: rotate(-90deg);
 }
-.swiper-button-prev {
+.prev {
   left: 20px !important;
   right: auto !important;
   top: auto !important;
   bottom: 0px !important;
   transform: rotate(-90deg);
 }
-.swiper-pagination-bullets {
+.bullets {
   left: 50% !important;
   transform: translateX(-50%);
   bottom: -25px !important;
@@ -129,7 +129,7 @@ export default {
   justify-content: center;
   align-items: center;
 }
-.swiper-pagination-bullet {
+.bullets .swiper-pagination-bullet {
   width: 40px !important;
   height: 40px !important;
   box-sizing: border-box;

@@ -32,10 +32,10 @@
           </div>
         </div>
       </v-col>
-      <v-col cols="12" lg="6" class="d-block d-none-lg">
+      <v-col cols="12" lg="6" class="d_none d_block-lg">
         <sliderlg/>
       </v-col>
-      <v-col cols="12" lg="6" class="d-block-lg d-none">
+      <v-col cols="12" lg="6" class="d_block d_none-lg">
         <slider/>
       </v-col>
     </v-row>
@@ -100,17 +100,17 @@ export default {
     }
   }
 }
-.d-block{
+.d_block{
   display: block;
 }
-.d-none{
+.d_none{
   display: none;
 }
 @media (max-width:1263px) {
-  .d-none-lg{
+  .d_none-lg{
     display: none;
   }
-  .d-block-lg{
+  .d_block-lg{
     display: block;
   }
 }

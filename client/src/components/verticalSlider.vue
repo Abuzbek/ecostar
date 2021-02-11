@@ -5,13 +5,13 @@
         <img src="../assets/2.jpg" alt="" />
       </swiper-slide>
       <swiper-slide>
-        <img src="../assets/2.jpg" alt="" />
+        <img src="../assets/1.png" alt="" />
       </swiper-slide>
       <swiper-slide>
-        <img src="../assets/2.jpg" alt="" />
+        <img src="../assets/2.png" alt="" />
       </swiper-slide>
       <swiper-slide>
-        <img src="../assets/2.jpg" alt="" />
+        <img src="../assets/3.png" alt="" />
       </swiper-slide>
       <div
         class="swiper-pagination swiper-pagination-bullets"
@@ -72,7 +72,7 @@ export default {
 </script>
 
 <style lang="scss">
-// @import './base.scss';
+// @import './base.scss'; 
 .swiper {
   max-height: 650px;
 }
