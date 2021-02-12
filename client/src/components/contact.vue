@@ -4,7 +4,13 @@
     <ul class="contact">
       <li>
         <img src="../assets/phones.png" alt="" />
-        <a href="tel:+998939712525">+998939712525</a>
+        <div>
+          <a href="tel:+998903087363">+998 90-308-73-63</a>
+          <br>
+          <a href="tel:+998906272721">+998 90-627-27-21</a>
+          <br>
+          <a href="tel:+998954002211">+998 95-400-22-11</a>
+        </div>
       </li>
       <li>
         <img src="../assets/loc.png" alt="" />
@@ -15,13 +21,13 @@
       </li>
       <li>
         <img src="../assets/mess.svg" alt="" />
-        <a href="https://ecostar@gmail.com">ecostar@gmail.com</a>
+        <a href="#!">ecostar@gmail.com</a>
       </li>
     </ul>
     <div class="social">
       <ul>
         <li>
-          <a href="#!">
+          <a href="https://t.me/Ecostaruz2">
             <img src="../assets/tel.svg" alt="" />
           </a>
         </li>

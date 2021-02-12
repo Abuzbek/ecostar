@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="port">
     <v-container>
       <h1>Sizga quyidagi xizmatlarni taklif qilamiz</h1>
       <v-row>

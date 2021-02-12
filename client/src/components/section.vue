@@ -11,7 +11,7 @@
             Darhol biz bilan bog’laning va o'z mahsulotingiz uchun chiroyli,
             zamonaviy dizayn va upakovkaga ega bo'ling.
           </p>
-          <v-btn class="btn_gradient"> Buyurtma berish </v-btn>
+          <v-btn class="btn_gradient" tag="a" href="https://t.me/Ecostaruz2"> Buyurtma berish </v-btn>
         </v-col>
       </v-row>
     </v-container>

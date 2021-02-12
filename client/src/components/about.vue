@@ -1,5 +1,5 @@
 <template>
-  <section class="about">
+  <section class="about" id="about">
     <v-container>
       <h1 style="margin-bottom:80px;" class="text-center">EcoStar bu</h1>
       <v-row justify="center">
