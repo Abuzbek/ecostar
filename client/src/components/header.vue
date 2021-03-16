@@ -4,7 +4,7 @@
       <v-col cols="12" lg="6">
         <div class="header_title">
           <h1>
-            Mahsultongizni xaridorgir bo’lishini xohlaysizmi?
+            Mahsultongiz uchun ajoyib qadoqlar kerakmi ?
           </h1>
           <p>
             Unda darhol biz bilan bog’laning va o'z mahsulotingiz uchun
@@ -16,7 +16,7 @@
           <div class="header_bottom d-flex justify-space-between align-center">
             <div class="left d-flex align-center">
               <img src="../assets/phone.png" alt="" />
-              <a href="tel:+998903087363">+998 90-308-73-63</a>
+              <a href="tel:+998939712525">+998939712525</a>
             </div>
             <div class="right">
               <a href="https://t.me/Ecostaruz2">

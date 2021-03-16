@@ -2,7 +2,7 @@
   <footer>
     <v-container>
       <v-row class="justify-space-between">
-        <p>Copyright © 2021 EcoStar. All rights reserved.</p>
+        <p>Copyright © {{new Date().getFullYear()}} EcoStar. All rights reserved.</p>
         <p>Developed by <a href="https://cloud9.uz">Cloud9 ITcompany</a></p>
       </v-row>
     </v-container>

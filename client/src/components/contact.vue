@@ -5,18 +5,14 @@
       <li>
         <img src="../assets/phones.png" alt="" />
         <div>
-          <a href="tel:+998903087363">+998 90-308-73-63</a>
-          <br>
-          <a href="tel:+998906272721">+998 90-627-27-21</a>
-          <br>
-          <a href="tel:+998954002211">+998 95-400-22-11</a>
+          <a href="tel:+998939712525">+998998939712525</a>
         </div>
       </li>
       <li>
         <img src="../assets/loc.png" alt="" />
         <a href="#!">
           Qo’qon shahar <br />
-          Mo’ljal: Qo’qon shukur metan servis
+          Burchilik 16-b uy
         </a>
       </li>
       <li>

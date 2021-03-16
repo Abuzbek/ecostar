@@ -28,6 +28,6 @@ export default {
 section.about{
   padding-bottom: 120px;
   padding-top: 60px;
-  background: url('../assets/aboutbg.jpg') no-repeat center center / cover;
+  background: url('../assets/back.png') no-repeat center center / cover;
 }
 </style>
